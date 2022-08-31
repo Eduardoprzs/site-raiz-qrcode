@@ -24,8 +24,8 @@ article.logomarca img {
 div.tapioca {
   background: rgb(127, 172, 59);
   border: solid rgb(255, 255, 255) 1px;
-  font-size: 8px;
-  padding: 4px 13px;
+  font-size: 9px;
+  padding: 4px 10px;
   font-weight: bold;
   border-radius: 8px;
 }
@@ -243,6 +243,15 @@ h1.volte {
   padding-bottom: 10px;
   color: rgb(111, 19, 142);
   border-radius: 30px;
+}
+
+ul.box-adc {
+  border: 2px solid white;
+  width: 170px;
+}
+
+ul li {
+  font-size: 8px;
 }
 
 /*# sourceMappingURL=style.css.map */
