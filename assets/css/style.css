@@ -16,7 +16,6 @@ article.logomarca {
   margin-top: 30px;
   background: white;
 }
-
 article.logomarca img {
   width: 150px;
   height: 75px;
@@ -32,7 +31,7 @@ div.tapioca {
 }
 
 body section.tapiocasecrepe {
-  background-image: url("../images/Tapioca-Simples.jpg");
+  background-image: url("https://xtudoreceitas.com/wp-content/uploads/Tapioca-Simples.jpg");
   background-size: cover;
   height: 70px;
   width: 280px;
@@ -40,7 +39,6 @@ body section.tapiocasecrepe {
   background-repeat: no-repeat;
   border: solid 2px rgb(111, 19, 142);
 }
-
 body section.tapiocasecrepe h1 {
   font-size: 15px;
   position: relative;
@@ -55,7 +53,6 @@ body section.tapiocasecrepe h1 {
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 40px;
 }
-
 body section.tapiocasecrepe h2 {
   font-size: 13px;
   color: rgb(0, 0, 0);
@@ -75,7 +72,6 @@ body section.tapiocasecrepedoces {
   background-repeat: no-repeat;
   border: solid 2px rgb(111, 19, 142);
 }
-
 body section.tapiocasecrepedoces h1 {
   font-size: 15px;
   position: relative;
@@ -90,7 +86,6 @@ body section.tapiocasecrepedoces h1 {
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 40px;
 }
-
 body section.tapiocasecrepedoces h2 {
   font-size: 13px;
   color: rgb(0, 0, 0);
@@ -110,7 +105,6 @@ body section.crepesespecial {
   background-repeat: no-repeat;
   border: solid 2px rgb(127, 172, 59);
 }
-
 body section.crepesespecial h1 {
   font-size: 15px;
   position: relative;
@@ -135,7 +129,6 @@ body section.cuscuz {
   background-repeat: no-repeat;
   border: solid 2px rgb(225, 244, 15);
 }
-
 body section.cuscuz h1 {
   font-size: 15px;
   position: relative;
@@ -160,7 +153,6 @@ body section.sucos {
   background-repeat: no-repeat;
   border: solid 2px rgb(111, 19, 142);
 }
-
 body section.sucos h1 {
   font-size: 15px;
   position: relative;
@@ -175,7 +167,6 @@ body section.sucos h1 {
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 40px;
 }
-
 body section.sucos h2 {
   background: rgb(225, 244, 15);
   font-size: 9px;
@@ -196,13 +187,20 @@ section.produtos {
 
 .preco1 {
   position: relative;
-  margin-right: 14px;
   font-size: 9px;
+  margin-right: 16px;
+  right: 9px;
 }
 
 .preco2 {
   position: relative;
-  margin-right: 11px;
+  font-size: 9px;
+  right: 8px;
+}
+
+.preco11 {
+  position: relative;
+  right: 1px;
 }
 
 span {
