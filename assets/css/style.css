@@ -190,14 +190,12 @@ section.produtos {
   font-size: 9px;
   margin-right: 16px;
   right: 9px;
-  flex-wrap: nowrap;
 }
 
 .preco2 {
   position: relative;
   font-size: 9px;
   right: 8px;
-  flex-wrap: nowrap;
 }
 
 .preco11 {
