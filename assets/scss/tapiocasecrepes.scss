@@ -35,7 +35,7 @@
  }
 
  body section.tapiocasecrepe {
-   background-image: url("https://xtudoreceitas.com/wp-content/uploads/Tapioca-Simples.jpg");
+   background-image: url("../images/Tapioca-Simples.jpg");
    background-size: cover;
    height: 70px;
    width: 280px;
@@ -202,12 +202,15 @@
    font-size: 9px;
    margin-right: 16px;
    right: 9px;
+   flex-wrap: nowrap;
+
  }
 
  .preco2 {
    position: relative;
    font-size: 9px;
    right: 8px;
+   flex-wrap: nowrap;
  }
 
 
