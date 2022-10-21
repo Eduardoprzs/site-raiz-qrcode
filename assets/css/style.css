@@ -1,11 +1,49 @@
+* {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+section#adcajustes {
+  background-color: white;
+}
+
+section#adcajustes2 {
+  background-color: white;
+}
+
+section#crepeesp {
+  background-color: white;
+}
+
+section#cuscuzajt {
+  background-color: white;
+}
+
+section#sucosajt {
+  background-color: white;
+}
+
+section#volteajt {
+  background-color: white;
+}
+
 section.semcor {
   padding: 0;
+  background-color: white;
+}
+
+section.container {
+  padding-bottom: 5px;
+  margin: auto;
+
+
+
 }
 
 body section {
   background: rgb(231, 227, 227);
   border-radius: 30px;
-  padding-top: 8px;
+  padding-top: 5px;
 }
 
 article.logomarca {
@@ -24,25 +62,25 @@ article.logomarca img {
 
 div.tapioca {
   background: rgb(127, 172, 59);
-  border: solid rgb(255, 255, 255) 1px;
-  font-size: 9px;
+  border: solid rgb(255, 255, 255) 2px;
+  font-size: 12px;
   padding: 4px 10px;
   font-weight: bold;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 body section.tapiocasecrepe {
   background-image: url("../images/Tapioca-Simples.jpg");
   background-size: cover;
   height: 70px;
-  width: 280px;
+  width: 450px;
   border-radius: 30px;
   background-repeat: no-repeat;
   border: solid 2px rgb(111, 19, 142);
 }
 
 body section.tapiocasecrepe h1 {
-  font-size: 15px;
+  font-size: 20px;
   position: relative;
   top: 12px;
   height: 30px;
@@ -57,27 +95,27 @@ body section.tapiocasecrepe h1 {
 }
 
 body section.tapiocasecrepe h2 {
-  font-size: 13px;
+  font-size: 20px;
   color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  top: 40px;
+  top: 32px;
 }
 
 body section.tapiocasecrepedoces {
   background-image: url("../images/Receitas-de-tapioca.jpg");
   background-size: cover;
   height: 70px;
-  width: 280px;
+  width: 450px;
   border-radius: 30px;
   background-repeat: no-repeat;
   border: solid 2px rgb(111, 19, 142);
 }
 
 body section.tapiocasecrepedoces h1 {
-  font-size: 15px;
+  font-size: 20px;
   position: relative;
   top: 12px;
   height: 30px;
@@ -92,7 +130,7 @@ body section.tapiocasecrepedoces h1 {
 }
 
 body section.tapiocasecrepedoces h2 {
-  font-size: 13px;
+  font-size: 20px;
   color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
@@ -105,14 +143,14 @@ body section.crepesespecial {
   background-image: url("../images/crepefit.png");
   background-size: cover;
   height: 70px;
-  width: 280px;
+  width: 450px;
   border-radius: 30px;
   background-repeat: no-repeat;
   border: solid 2px rgb(127, 172, 59);
 }
 
 body section.crepesespecial h1 {
-  font-size: 15px;
+  font-size: 20px;
   position: relative;
   top: 12px;
   height: 30px;
@@ -130,14 +168,14 @@ body section.cuscuz {
   background-image: url("../images/cuscuz.jpg");
   background-size: cover;
   height: 70px;
-  width: 280px;
+  width: 450px;
   border-radius: 30px;
   background-repeat: no-repeat;
   border: solid 2px rgb(225, 244, 15);
 }
 
 body section.cuscuz h1 {
-  font-size: 15px;
+  font-size: 20px;
   position: relative;
   top: 12px;
   height: 30px;
@@ -155,14 +193,14 @@ body section.sucos {
   background-image: url("../images/sucos-diferentes.jpg");
   background-size: cover;
   height: 70px;
-  width: 280px;
+  width: 450px;
   border-radius: 30px;
   background-repeat: no-repeat;
   border: solid 2px rgb(111, 19, 142);
 }
 
 body section.sucos h1 {
-  font-size: 15px;
+  font-size: 20px;
   position: relative;
   top: 12px;
   height: 30px;
@@ -178,7 +216,7 @@ body section.sucos h1 {
 
 body section.sucos h2 {
   background: rgb(225, 244, 15);
-  font-size: 9px;
+  font-size: 12px;
   color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
@@ -192,24 +230,28 @@ body section.sucos h2 {
 section.produtos {
   font-size: 9px;
   font-weight: bold;
+  border-bottom: solid rgba(0, 0, 0, 0.501) 1px;
+  padding-left: 10px;
 }
 
 .preco1 {
   position: relative;
-  font-size: 9px;
+  font-size: 12px;
   margin-right: 16px;
-  right: 9px;
+  right: 20px;
+
 }
 
 .preco2 {
   position: relative;
-  font-size: 9px;
-  right: 8px;
+  font-size: 12px;
+  right: 15px;
+
 }
 
 .preco11 {
   position: relative;
-  right: 1px;
+  right: 13px;
 }
 
 span {
@@ -228,6 +270,7 @@ ul {
 span.adicionais {
   color: rgb(111, 19, 142);
   font-weight: bold;
+  font-size: 20px;
 }
 
 h1.adicionais {
@@ -237,18 +280,20 @@ h1.adicionais {
   border-radius: 30px;
   color: rgb(111, 19, 142);
   height: 50px;
-  width: 230px;
+  width: 450px;
   align-items: center;
   border: 2px solid rgb(111, 19, 142);
 }
 
+
+
 span.sucos {
-  font-size: 8px;
+  font-size: 9px;
   color: black;
 }
 
 h1.volte {
-  font-size: 15px;
+  font-size: 25px;
   padding-bottom: 10px;
   color: rgb(111, 19, 142);
   border-radius: 30px;
@@ -256,11 +301,11 @@ h1.volte {
 
 ul.box-adc {
   border: 2px solid white;
-  width: 170px;
+  width: 500px;
 }
 
 ul li {
-  font-size: 8px;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
