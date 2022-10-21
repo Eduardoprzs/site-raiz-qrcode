@@ -1,0 +1,274 @@
+ section.semcor {
+   padding: 0;
+ }
+
+ body {
+   section {
+     background: rgb(231, 227, 227);
+     border-radius: 30px;
+     padding-top: 8px;
+   }
+ }
+
+ article.logomarca {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+   margin-top: 30px;
+   background: white;
+
+   img {
+     width: 150px;
+     height: 75px;
+   }
+ }
+
+ div.tapioca {
+   background: rgb(127, 172, 59);
+   border: solid rgb(255, 255, 255) 1px;
+   font-size: 9px;
+   padding: 4px 10px;
+   font-weight: bold;
+   border-radius: 8px;
+
+ }
+
+ body section.tapiocasecrepe {
+   background-image: url("../images/Tapioca-Simples.jpg");
+   background-size: cover;
+   height: 70px;
+   width: 280px;
+   border-radius: 30px;
+   background-repeat: no-repeat;
+   border: solid 2px rgb(111, 19, 142);
+
+   h1 {
+     font-size: 15px;
+     position: relative;
+     top: 12px;
+     height: 30px;
+     margin-right: 0px;
+     margin-left: 0;
+     color: rgb(255, 255, 255);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: rgba(0, 0, 0, 0.6);
+     border-radius: 40px;
+   }
+
+   h2 {
+     font-size: 13px;
+     color: rgb(0, 0, 0);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     top: 40px;
+   }
+ }
+
+ body section.tapiocasecrepedoces {
+   background-image: url("../images/Receitas-de-tapioca.jpg");
+   background-size: cover;
+   height: 70px;
+   width: 280px;
+   border-radius: 30px;
+   background-repeat: no-repeat;
+   border: solid 2px rgb(111, 19, 142);
+
+   h1 {
+     font-size: 15px;
+     position: relative;
+     top: 12px;
+     height: 30px;
+     margin-right: 0px;
+     margin-left: 0;
+     color: rgb(255, 255, 255);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: rgba(0, 0, 0, 0.6);
+     border-radius: 40px;
+   }
+
+   h2 {
+     font-size: 13px;
+     color: rgb(0, 0, 0);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     top: 40px;
+   }
+ }
+
+ body section.crepesespecial {
+   background-image: url("../images/crepefit.png");
+   background-size: cover;
+   height: 70px;
+   width: 280px;
+   border-radius: 30px;
+   background-repeat: no-repeat;
+   border: solid 2px rgb(127, 172, 59);
+
+   h1 {
+     font-size: 15px;
+     position: relative;
+     top: 12px;
+     height: 30px;
+     margin-right: 0px;
+     margin-left: 0;
+     color: rgb(255, 255, 255);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: rgba(0, 0, 0, 0.6);
+     border-radius: 40px;
+   }
+ }
+
+ body section.cuscuz {
+   background-image: url("../images/cuscuz.jpg");
+   background-size: cover;
+   height: 70px;
+   width: 280px;
+   border-radius: 30px;
+   background-repeat: no-repeat;
+   border: solid 2px rgb(225, 244, 15);
+
+   h1 {
+     font-size: 15px;
+     position: relative;
+     top: 12px;
+     height: 30px;
+     margin-right: 0px;
+     margin-left: 0;
+     color: rgb(255, 255, 255);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: rgba(0, 0, 0, 0.6);
+     border-radius: 40px;
+   }
+ }
+
+ body section.sucos {
+   background-image: url("../images/sucos-diferentes.jpg");
+   background-size: cover;
+   height: 70px;
+   width: 280px;
+   border-radius: 30px;
+   background-repeat: no-repeat;
+   border: solid 2px rgb(111, 19, 142);
+
+   h1 {
+     font-size: 15px;
+     position: relative;
+     top: 12px;
+     height: 30px;
+     margin-right: 0px;
+     margin-left: 0;
+     color: rgb(255, 255, 255);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: rgba(0, 0, 0, 0.6);
+     border-radius: 40px;
+   }
+
+   h2 {
+     background: rgb(225, 244, 15);
+     font-size: 9px;
+     color: rgb(0, 0, 0);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     top: 40px;
+     padding: 5px;
+     border-radius: 30px;
+   }
+ }
+
+ section.produtos {
+   font-size: 9px;
+   font-weight: bold;
+ }
+
+ .preco1 {
+   position: relative;
+   font-size: 9px;
+   margin-right: 16px;
+   right: 9px;
+
+
+ }
+
+ .preco2 {
+   position: relative;
+   font-size: 9px;
+   right: 8px;
+
+ }
+
+
+
+ .preco11 {
+   position: relative;
+   right: 1px;
+ }
+
+ span {
+   color: rgb(127, 172, 59);
+ }
+
+ ul {
+   list-style: none;
+   font-size: 9px;
+   background: rgba(127, 172, 59, 0.6);
+   border-radius: 30px;
+   padding: 13px;
+   font-weight: bold;
+ }
+
+ span.adicionais {
+   color: rgb(111, 19, 142);
+   font-weight: bold;
+ }
+
+ h1.adicionais {
+   font-size: 16px;
+   font-weight: bold;
+   background: rgb(255, 255, 255);
+   border-radius: 30px;
+   color: rgb(111, 19, 142);
+   height: 50px;
+   width: 230px;
+   align-items: center;
+   border: 2px solid rgb(111, 19, 142);
+ }
+
+ span.sucos {
+   font-size: 8px;
+   color: black;
+ }
+
+ h1.volte {
+   font-size: 15px;
+   padding-bottom: 10px;
+   color: rgb(111, 19, 142);
+   border-radius: 30px;
+ }
+
+ ul.box-adc {
+   border: 2px solid white;
+   width: 170px;
+ }
+
+ ul {
+   li {
+     font-size: 8px;
+   }
+ }
